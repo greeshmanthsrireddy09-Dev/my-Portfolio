@@ -21,7 +21,7 @@ function Navbar() {
       <div
         className="
           flex items-center gap-2
-          rounded-2xl px-4 py-2
+          rounded-2xl px-4 py-3
           backdrop-blur bg-neutral-900/80
           border border-neutral-800
           shadow-lg
@@ -36,7 +36,10 @@ function Navbar() {
               end
               className={({ isActive }) =>
                 `
-                flex items-center gap-2 px-3 py-2 rounded-xl
+                flex items-center justify-center
+                px-4 py-2.5
+                rounded-full
+                leading-none
                 text-sm transition
                 ${isActive
                   ? "bg-violet-600 text-white"
@@ -46,9 +49,6 @@ function Navbar() {
               }
             >
               <Icon size={16} />
-              <span className="hidden sm:inline">
-                {link.name}
-              </span>
             </NavLink>
           );
         })}
