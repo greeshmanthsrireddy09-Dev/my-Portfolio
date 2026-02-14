@@ -4,13 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],     // default body font
-        display: ["Playwrite NZ Basic", "serif"],       // decorative headings
+        sans: ["Manrope", "system-ui", "sans-serif"],
+        display: ["Space Grotesk", "Manrope", "sans-serif"],
       },
     },
   },
   plugins: [],
 };
-
-
-
