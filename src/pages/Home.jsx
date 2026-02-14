@@ -55,18 +55,32 @@ function Home() {
         </p>
 
         <div className="mt-7 flex flex-wrap gap-3">
-          <button
+          <motion.button
             onClick={() => navigate("/projects")}
-            className="inline-flex items-center gap-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white px-5 py-2.5 font-medium transition"
+            whileHover={{ y: -2, scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.2 }}
+            className="group inline-flex items-center gap-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white px-5 py-2.5 font-medium transition shadow-[0_12px_24px_-14px_rgba(139,92,246,0.9)]"
           >
-            Explore Projects <ArrowRight size={16} />
-          </button>
-          <button
+            Explore Projects
+            <motion.span
+              className="inline-flex"
+              initial={{ x: 0 }}
+              whileHover={{ x: 3 }}
+              transition={{ duration: 0.2 }}
+            >
+              <ArrowRight size={16} />
+            </motion.span>
+          </motion.button>
+          <motion.button
             onClick={() => navigate("/contact")}
-            className="inline-flex items-center rounded-xl border border-neutral-700 text-neutral-200 px-5 py-2.5 font-medium hover:border-neutral-500 transition"
+            whileHover={{ y: -2, scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.2 }}
+            className="inline-flex items-center rounded-xl border border-neutral-700 bg-neutral-900/60 text-neutral-100 px-5 py-2.5 font-medium hover:border-neutral-500 hover:bg-neutral-800/80 transition"
           >
             Let&apos;s Talk
-          </button>
+          </motion.button>
         </div>
       </MotionSection>
 

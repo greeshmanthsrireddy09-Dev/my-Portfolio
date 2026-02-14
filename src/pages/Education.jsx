@@ -102,7 +102,7 @@ function Education() {
 
               <ul className="mt-4 space-y-2">
                 {item.highlights.map((point) => (
-                  <li key={point} className="text-sm text-neutral-200 inline-flex items-start gap-2">
+                  <li key={point} className="text-sm text-neutral-200 flex items-start gap-2">
                     <span className="mt-[7px] h-1.5 w-1.5 rounded-full bg-violet-400 shrink-0" />
                     <span>{point}</span>
                   </li>
