@@ -4,8 +4,8 @@ export const projects = [
     description:
       "NLP-driven engine that maps resumes to job descriptions using semantic similarity and ranking for faster shortlisting.",
     tech: ["Python", "spaCy", "SBERT", "FastAPI"],
-    github: "https://github.com/yourname/ai-resume-matcher",
-    demo: "",
+    github: "https://github.com/greeshmanthsrireddy09-Dev/Resume-Analyzer",
+    demo: "https://greeshmanthsrireddy09-dev.github.io/Resume-Analyzer/",
     year: "2025",
     status: "Production Concept",
     impact: "Improved profile-job match precision in evaluation scenarios.",
