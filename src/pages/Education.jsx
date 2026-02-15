@@ -26,7 +26,7 @@ const educationItems = [
   {
     institution: "Amrita Vishwa Vidyapeetham, Bengaluru",
     degree: "Bachelor of Technology in Mechanical Engineering",
-    period: "2017 - 2021",
+    period: "2018 - 2022",
     location: "Bengaluru, India",
     details:
       "Built strong fundamentals in mechanical engineering, analysis, and practical design-oriented problem solving.",
