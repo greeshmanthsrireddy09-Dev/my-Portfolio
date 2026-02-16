@@ -22,7 +22,7 @@ import {
 import PageWrapper from "../components/PageWrapper";
 import { ADMIN_EMAIL, db } from "../firebase";
 import { useAuth } from "../context/useAuth";
-import { projects as fallbackProjects } from "../data/projects";
+import { projects as fallbackProjects } from "../assets/data/projects";
 
 const initialForm = {
   title: "",

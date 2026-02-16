@@ -4,7 +4,7 @@ import { collection, onSnapshot } from "firebase/firestore";
 import PageWrapper from "../components/PageWrapper";
 import ProjectCard from "../components/ProjectCard";
 import { db } from "../firebase";
-import { projects as fallbackProjects } from "../data/projects";
+import { projects as fallbackProjects } from "../assets/data/projects";
 
 const MotionSection = motion.section;
 const MotionGrid = motion.div;
